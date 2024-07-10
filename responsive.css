@@ -1,0 +1,49 @@
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* Modify header size and padding */
+    header {
+        padding: 10px 5%;
+    }
+    .header-content {
+        margin-top: 50px;
+    }
+    .header-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 100%;
+    }
+    /* Adjust email signup form */
+    .email-signup input {
+        margin-left: 10px;
+        font-size: 0.9rem;
+    }
+    .email-signup button {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+    /* Adjust features section */
+    .features {
+        padding: 30px 5%;
+        font-size: 1.2rem;
+    }
+    .row {
+        padding: 30px 0;
+    }
+    .features h2 {
+        font-size: 40px;
+    }
+    /* Adjust FAQ section */
+    .FAQ {
+        padding: 10px 5%;
+        font-size: 1rem;
+    }
+    .FAQ h2 {
+        font-size: 2rem;
+    }
+    /* Adjust footer */
+    footer {
+        padding: 30px 5% 10px;
+    }
+    footer h2 {
+        margin-bottom: 20px;
+    }
+}
